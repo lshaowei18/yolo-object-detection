@@ -1,8 +1,10 @@
 ## Project title
-A little info about your project and/ or overview that explains **what** the project is about.
+Using YOLO object detector to detect objects in videos and images.
 
 ## Motivation
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+My friend and I wanted to be able to count the number of vehicles on the road real time, either using a live stream video or snapping images using a Raspberry pi.
+
+The purpose of this repo is to share our experiences and hopefully make it a little easier for anyone who wants to explore object detection as well as working with hardwares.
 
 ## Build status
 Build status of continus integration i.e. travis, appveyor etc. Ex. -
@@ -48,11 +50,11 @@ If people like your project they’ll want to learn how they can use it. To do s
 Let people know how they can contribute into your project. A [contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md) will be a big plus.
 
 ## Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project.
+Full credits to Adrian Rosebrock for the wonderful tutorial and code on pyimagesearch.com. Link to the tutorial: https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
 
 #### Anything else that seems useful
 
 ## License
 A short snippet describing the license (MIT, Apache etc)
 
-MIT © [Yourname]()
+MIT © [Yourname]()    
