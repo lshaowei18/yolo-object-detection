@@ -6,16 +6,17 @@ My friend and I wanted to be able to count the number of vehicles on the road re
 
 The purpose of this repo is to share our experiences and hopefully make it a little easier for anyone who wants to explore object detection as well as working with hardwares.
 
-## Build status
-Build status of continus integration i.e. travis, appveyor etc. Ex. -
+## Hardware
+We went to get the hardware first, purchasing a Pi NoIR Camera V2 that works with the Raspberry Pi(update the model).
 
-[![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master)
+List of hardware we use :
+- A computer with python 2 installed
+- Pi NoIR Camera V2
+- Raspberry Pi
+- Ethernet Cable
 
-## Code style
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
+## Hardware Setbacks 
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 ## Screenshots
 Include logo/demo screenshot etc.
