@@ -15,7 +15,13 @@ List of hardware we use :
 - Raspberry Pi
 - Ethernet Cable
 
-## Hardware Setbacks 
+## Hardware Setbacks
+The first setback we face was that our Raspberry Pi did not have wifi capability. This is a major setback as our initial plan was to use mobile data to connect the pi to a server.  
+
+##Hardware Tips
+Here are a few things that we learn about hardware :
+- Use SSH to connect to your Pi instead of using a cable. Refer to https://www.raspberrypi.org/documentation/remote-access/ssh/
+- Model of Raspberry Pi is <b>important</b>, choose wisely before starting project or purchasing one.
 
 
 ## Screenshots
