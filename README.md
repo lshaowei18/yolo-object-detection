@@ -18,14 +18,23 @@ List of hardware we use :
 ## Hardware Setbacks
 The first setback we face was that our Raspberry Pi did not have wifi capability. This is a major setback as our initial plan was to use mobile data to connect the pi to a server.  
 
-##Hardware Tips
+## Hardware Tips
 Here are a few things that we learn about hardware :
 - Use SSH to connect to your Pi instead of using a cable. Refer to https://www.raspberrypi.org/documentation/remote-access/ssh/
 - Model of Raspberry Pi is <b>important</b>, choose wisely before starting project or purchasing one.
 
 
-## Screenshots
-Include logo/demo screenshot etc.
+## Code
+We decided to start with a trained model first, and we found this tutorial by Adrian Rosebrock, https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/.
+
+It is an YOLO(You Only Look Once) object detector that uses Deep Learning, OpenCV and Python.
+
+The model that we used is inside the folder yolo-coco, and it contains 3 files. yolov3.weights is the weights of the model that is trained by the Darknet team.
+
+## How to run the scripts
+For images, go to the directory that contains yolo.py. Run this command: python yolo.py --image images/baggage_claim.jpg --yolo yolo-coco
+
+The --image is to specify where to save the image is going to be stored at. (In the above command we will be storing in the folder images, and its name is baggage_claim.jpg)
 
 ## Tech/framework used
 Ex. -
