@@ -27,20 +27,20 @@ Here are a few things that we learn about hardware :
 ## Code
 We decided to start with a trained model first, and we found this tutorial by Adrian Rosebrock, https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/.
 
-It is an YOLO(You Only Look Once) object detector that uses Deep Learning, OpenCV and Python.
+It is a YOLO(You Only Look Once) object detector that uses Deep Learning, OpenCV and Python.
 
 The model that we used is inside the folder yolo-coco, and it contains 3 files. yolov3.weights is the weights of the model that is trained by the Darknet team.
 
 ## How to run the scripts
 For images, go to the directory that contains yolo.py. Run this command: python yolo.py --image images/baggage_claim.jpg --yolo yolo-coco
 
-The --image is to specify where to save the image is going to be stored at. (In the above command we will be storing in the folder images, and its name is baggage_claim.jpg)
+The --image is to specify which image to run the model on. (In the above command, we are running on baggage_claim.jpg that is in the directory images)
 
-## Tech/framework used
-Ex. -
+For videos, the command is : python yolo_video.py --input videos/car_chase_01.mp4 --output output/car_chase_01.avi --yolo yolo-coco
 
-<b>Built with</b>
-- [Electron](https://electron.atom.io)
+
+## What we learn
+With a trained model, object detection is not hard. However, for what we are trying to achieve, we either need faster hardware or a faster model. With a Macbook Pro, the yolo-coco model can detect at about half a second per frame. We did not test it on the Pi but we would expect it to be much slower than a Macbook Pro.
 
 ## Features
 What makes your project stand out?
@@ -61,16 +61,6 @@ Describe and show how to run the tests with code examples.
 ## How to use?
 If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
 
-## Contribute
-
-Let people know how they can contribute into your project. A [contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md) will be a big plus.
 
 ## Credits
 Full credits to Adrian Rosebrock for the wonderful tutorial and code on pyimagesearch.com. Link to the tutorial: https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
-
-#### Anything else that seems useful
-
-## License
-A short snippet describing the license (MIT, Apache etc)
-
-MIT © [Yourname]()    
